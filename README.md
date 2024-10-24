@@ -71,7 +71,7 @@ This creates and trains the model; runs the model on the validation dataset afte
 
 ## Figures and Visualizations
 An example of the model's predictions alongside the original MRI image and the ground truth mask is shown below:
-(To reproduce the example graphs obtained, use the following parameters when training the model:
+(To reproduce the example graphs obtained, use the following parameters when training the model):
 ```bash
 # Initialize learning rate scheduler
     decay_steps = 1000
@@ -90,7 +90,7 @@ model.fit(
         verbose=1
     )
 ```
-)
+
 ![Example of model training metric plot epoch loss](images/epoch-loss-example.png)
 ![Example of model training metric plot dice similarity coefficient](images/dice-coeff-example.png)
 
