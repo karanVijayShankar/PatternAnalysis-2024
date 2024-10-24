@@ -141,7 +141,7 @@ def main(base_dir, image_dir, mask_dir):
 
     model.fit(
         dataset, 
-        epochs=25, 
+        epochs=250, 
         steps_per_epoch=len(dataset),
         callbacks=[tensorboard_callback],
         verbose=1
