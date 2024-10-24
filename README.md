@@ -91,8 +91,8 @@ model.fit(
     )
 ```
 )
-![Example of model training metric plot epoch loss](images/epoch-loss-example)
-![Example of model training metric plot dice similarity coefficient](images/dice-coeff-example)
+![Example of model training metric plot epoch loss](images/epoch-loss-example.png)
+![Example of model training metric plot dice similarity coefficient](images/dice-coeff-example.png)
 
 
 An example of model training metrics is shown below; more in-depth metrics can also be obtained by taking the directory of the log files generated from training & running (in your conda environment):
